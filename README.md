@@ -16,5 +16,5 @@ ESP32开发板安装方法：在Ardunio IDE——文件——首选项——附�
 
 接着Ardunio IDE——工具——开发板——开发板管理器，搜索 ESP32 安装即可。
 
-- **点灯科技：**https://github.com/blinker-iot
-- **乐鑫支持：**https://github.com/espressif/arduino-esp32
+- 点灯科技：https://github.com/blinker-iot
+- 乐鑫支持：https://github.com/espressif/arduino-esp32
