@@ -78,7 +78,10 @@ void button2_callback(const String & state)
   BLINKER_LOG("get button state: ", state);
   digitalWrite(12, !digitalRead(12));
   if (state == "on") {
+    digitalWrite(27, LOW);
     digitalWrite(12, HIGH);
+    Button3.print("off");
+    Button3.text("高温/强风");
     Button2.print("on");
     Button2.text("低温/弱风");
   }
@@ -95,7 +98,10 @@ void button3_callback(const String & state)
   BLINKER_LOG("get button state: ", state);
   digitalWrite(27, !digitalRead(27));
   if (state == "on") {
+    digitalWrite(12, LOW);
     digitalWrite(27, HIGH);
+    Button2.print("off");
+    Button2.text("低温/弱风");
     Button3.print("on");
     Button3.text("高温/强风");
   }
