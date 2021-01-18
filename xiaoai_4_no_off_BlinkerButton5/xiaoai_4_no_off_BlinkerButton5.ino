@@ -183,26 +183,20 @@ void miotPowerState(const String & state, uint8_t num)
         BlinkerMIOT.powerState("on", num);
         BlinkerMIOT.print();
         oState[num] = true;
-
         break;
-
       case 27:
         digitalWrite(12, LOW);
         digitalWrite(i, !digitalRead(12));
         BlinkerMIOT.powerState("on", num);
         BlinkerMIOT.print();
         oState[num] = true;
-
         break;
-
       default:
         digitalWrite(i, HIGH);
         BlinkerMIOT.powerState("on", num);
         BlinkerMIOT.print();
-
         oState[num] = true;
     }
-
   }
   else if (state == BLINKER_CMD_OFF) {
     switch (i) {
@@ -212,23 +206,18 @@ void miotPowerState(const String & state, uint8_t num)
         BlinkerMIOT.powerState("off", num);
         BlinkerMIOT.print();
         oState[num] = false;
-
         break;
-
       case 27:
         digitalWrite(12, LOW);
         digitalWrite(i, LOW);
         BlinkerMIOT.powerState("off", num);
         BlinkerMIOT.print();
         oState[num] = false;
-
         break;
-
       default:
         digitalWrite(i, LOW);
         BlinkerMIOT.powerState("off", num);
         BlinkerMIOT.print();
-
         oState[num] = false;
     }
 
@@ -298,7 +287,6 @@ void setup()
 
   BlinkerMIOT.attachPowerState(miotPowerState);
   BlinkerMIOT.attachQuery(miotQuery);
-
 }
 
 void loop()
