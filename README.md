@@ -3,8 +3,8 @@
 
 ## 说明：
 - xiaoai_on_off：小爱控制单个插座开关
-- xiaoai_4_no_off：小爱控制多孔插座开关
-- xiaoai_4_no_off_BlinkerButton5：小爱控制取暖器（兼容风扇）_支持Blinker App按键/语音控制（需要对照键名App设置），支持摇头_低温/弱风_高温/强风
+- xiaoai_4_on_off：小爱控制多孔插座开关
+- xiaoai_4_on_off_BlinkerButton5：小爱控制取暖器（兼容风扇）_支持Blinker App按键/语音控制（需要对照键名App设置），支持摇头_低温/弱风_高温/强风
 - xiaoai_MicroSwitch：小爱模拟控制微动开关（按1次开，再按1次关；延迟200ms）
 - xiaoai_MicroSwitch_1on_2off：小爱模拟控制微动开关（按1次开，再按1次防误触，再按1次关）
 
