@@ -1,7 +1,7 @@
 # ESP32实现低成本全屋智能 o(￣▽￣)ｄ 
 通过ESP32开发板，将传统家电接入小爱同学，语音控制、智能联动。#物联网
 
-## 说明：
+## 说明  
 - xiaoai_on_off：小爱控制单个插座开关
 - xiaoai_4_on_off：小爱控制多孔插座开关
 - xiaoai_4_on_off_BlinkerButton5：小爱控制取暖器（兼容风扇）_支持Blinker App按键/语音控制（需要对照键名App设置），支持摇头_低温/弱风_高温/强风
@@ -9,9 +9,9 @@
 - xiaoai_MicroSwitch_1on_2off：小爱模拟控制微动开关（按1次开，再按1次防误触，再按1次关）
   
 ## 配网  
-char auth[] = "******"; // 在点灯App里添加一个设备，生成的设备标识  
-char ssid[] = "******"; // 要配网的WiFi名称(2.4GHZ优先)  
-char pswd[] = "******"; // 要配网的WiFi密码(2.4GHZ优先)  
+char auth[] = "xxxxxxx"; // 在点灯App里添加一个设备，生成的设备标识  
+char ssid[] = "xxxxxxx"; // 要配网的WiFi名称(2.4GHZ优先)  
+char pswd[] = "xxxxxxx"; // 要配网的WiFi密码(2.4GHZ优先)  
   
 ## 引脚接线  
 查看源码，按注释接线即可  
