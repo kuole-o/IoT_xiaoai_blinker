@@ -109,7 +109,7 @@ void button5_callback(const String &state) {
   if (!digitalRead(PIN_YAO_TOU_ON_OFF) && !digitalRead(PIN_LOW_TEMP_WEAK_WIND) && !digitalRead(PIN_HIGH_TEMP_STRONG_WIND)) {
     setPinAndButtonState(PIN_YAO_TOU_ON_OFF, Button1, "on", "摇头");
     setPinAndButtonState(PIN_LOW_TEMP_WEAK_WIND, Button2, "on", "低温/弱风");
-  } else if {
+  } else {
     setPinAndButtonState(PIN_YAO_TOU_ON_OFF, Button1, "off", "摇头");
     setPinAndButtonState(PIN_LOW_TEMP_WEAK_WIND, Button2, "off", "低温/弱风");
     setPinAndButtonState(PIN_HIGH_TEMP_STRONG_WIND, Button3, "off", "低温/弱风");
